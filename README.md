@@ -2,8 +2,8 @@
 <img src='logo.png' height='200px'>
 </p>
 # Radiate
-[![Build Status](https://travis-ci.org/stevelacy/radiate.png?branch=master)](https://travis-ci.org/stevelacy/radiate)
-[![NPM version](https://badge.fury.io/js/radiate.png)](http://badge.fury.io/js/radiate)
+[![Build Status](https://img.shields.io/travis/stevelacy/radiate.svg?style=flat-square)](https://travis-ci.org/stevelacy/radiate)
+[![NPM version](https://img.shields.io/npm/v/radiate.svg?style=flat-square)](http://badge.fury.io/js/radiate)
 
 > development task runner
 
