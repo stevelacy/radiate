@@ -14,7 +14,7 @@ Run devop tasks, deploy code, and run commands on local and remote machines.
 ### Install
 
 ```
-npm i -g radiate
+npm install --global radiate
 
 ```
 
