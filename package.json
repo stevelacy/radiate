@@ -31,6 +31,9 @@
   "bugs": {
     "url": "https://github.com/stevelacy/radiate/issues"
   },
+  "engines" : {
+    "node" : ">=4.0.0"
+  },
   "homepage": "https://github.com/stevelacy/radiate#readme",
   "files": [
     "index.js",
