@@ -1,0 +1,41 @@
+{
+  "name": "radiate",
+  "version": "0.1.0",
+  "description": "Development task runner",
+  "author": "Steve Lacy <me@slacy.me> (http://slacy.me)",
+  "main": "index.js",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "liftoff": "^2.2.0",
+    "minimist": "^1.2.0",
+    "rsync": "^0.4.0",
+    "simple-ssh": "^0.8.6"
+  },
+  "devDependencies": {
+    "code": "^2.0.1",
+    "lab": "^8.0.0"
+  },
+  "bin": {
+    "radiate": "./bin/radiate.js"
+  },
+  "scripts": {
+    "test": "lab test/*.js -v"
+  },
+  "keywords": [
+    "development",
+    "deployment",
+    "task",
+    "runner",
+    "devops"
+  ],
+  "bugs": {
+    "url": "https://github.com/stevelacy/radiate/issues"
+  },
+  "homepage": "https://github.com/stevelacy/radiate#readme",
+  "files": [
+    "index.js",
+    "bin/radiate.js",
+    "lib/log.js"
+  ],
+  "license": "MIT"
+}
