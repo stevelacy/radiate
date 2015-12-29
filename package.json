@@ -1,6 +1,6 @@
 {
   "name": "radiate",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Development task runner",
   "author": "Steve Lacy <me@slacy.me> (http://slacy.me)",
   "main": "index.js",
