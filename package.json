@@ -6,6 +6,7 @@
   "main": "index.js",
   "dependencies": {
     "chalk": "^1.1.1",
+    "interpret": "^1.0.0",
     "liftoff": "^2.2.0",
     "minimist": "^1.2.0",
     "rsync": "^0.4.0",
