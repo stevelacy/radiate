@@ -24,8 +24,17 @@ Initiate.launch({
 }, invoke);
 
 function invoke (env) {
-  const moduleConfig = require(env.configPath);
+  let moduleConfig;
   let handler = new Radiate();
+
+  try {
+    moduleConfig = require(env.configPath);
+  } catch (e) {
+    if (e.message === 'missing path') {
+      return log.error('Could not find a radiate.js file')
+    }
+    return log.error(e);
+  }
 
   if (argv._[0]) {
     try {
